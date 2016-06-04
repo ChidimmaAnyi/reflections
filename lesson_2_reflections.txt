@@ -1,26 +1,47 @@
-What happens when you initialize a repository? Why do you need to do it?
+* What happens when you initialize a repository? Why do you need to do it?
 
 Fill your answer here:
 
 When you initialize a repository, it creates a .git file in the repository allowing you to track any changes/commits you make to the directory.
 
-How is the staging area different from the working directory and the repository?
+* How is the staging area different from the working directory and the repository?
 What value do you think it offers?
 
 Fill your answer here:
 
 The staging area is different from the repository and the working directory in that it only serves as a holding ground. In other words, it is neither a repository or a working directory. It is advantageous because it allows the user to cancel making a commit if they change their mind while a file is still in the staging area.
 
-How can you use the staging area to make sure you have one commit per logical
+* How can you use the staging area to make sure you have one commit per logical
 change?
+
+Fill your answer here:
+
+You can do this by using the git diff and git diff --staged commands to compare changes between the working directory and the staging area, and between the staging area and the repository respectively.
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
-How do the diagrams help you visualize the branch structure?
+Fill your answer here:
 
-What is the result of merging two branches together? Why do we represent it in
+Branches will be easy when you are trying a new feature which you are not sure would work or you are not sure how it will fit into your program. It helps to keep the master branch free of avoidable issues.
+
+* How do the diagrams help you visualize the branch structure?
+
+Fill your answer here:
+
+They make it easier to see parent commits and to see any unreachable commits
+
+* What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
-What are the pros and cons of Git’s automatic merging vs. always doing merges
+Fill in your answer here:
+
+Merging two branches together puts all the commits made in both branches into one. The merge is represented diagramatically in the way it is because this enables one to trace the parent commit of each commit easily.
+
+* What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
+
+Fill in your answer here: 
+
+With automatic merging, there is a chance that a merge conflict will arise as opposed to manual merging.
+
