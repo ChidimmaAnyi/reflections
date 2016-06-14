@@ -7,3 +7,25 @@ I would use a remote repository when I want to have my work in the GitHub cloud,
 
 Fill in your answer: 
 By pulling changes manually, I am sure that my work both on the local and remote is synchronized. Nothing is left to chance that way.
+
+* Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+Fill in your answer:
+A clone allows you to download a repository as it were to your local system.
+A fork allows you to make a copy of a repository which you do not have permissions to edit on your GitHub. You can then clone it to your local system.
+A branch exists on a local system. You can use it to test out a new feature that you do not want to integrate in the main branch yet.
+
+* What is the benefit of having a copy of the last known state of the remote stored locally?
+
+Fill in your answer:
+The benefit is that you can work on the local copy while offline and then commit and push it to the remote once you are online. This comes in handy especially when one is traveling or just happens to be in a place where there is no internet access.
+
+* How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+Fill in your answer: 
+If I were to collaborate without Git or GitHub, I'd probably use Google docs or something like that to share my files. But this will be more tedious because it will require that my collaborators manually go through each line of the file that I have sent to them in order to compare and contrast and then see what stays or what goes. Git and GitHub however, make it much simpler to collaborate.
+
+* When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+Fill in your answer:
+I will want to create and use a separate branch when I am trying out a new feature that I do not want to make public yet, or when I am collaborating with others and would like to make sure that they approve of changes I have made and that those changes integrate well with their updates.
